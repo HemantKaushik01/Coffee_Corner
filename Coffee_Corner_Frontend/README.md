@@ -1,8 +1,28 @@
-# React + Vite
+# ☕ Coffee_Corner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Coffee_Corner** is a frontend-only web application built using **React.js**. It offers a smooth, responsive UI for browsing and interacting with a fictional coffee shop interface.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚛️ Built with React (Functional Components + Hooks)
+- 🎨 Styled with modern CSS / Tailwind 
+- 📱 Fully responsive design
+- 🧭 Clean routing using React Router (if used)
+- 🔥 Smooth user interactions and animations 
+
+## 📦 Tech Stack
+
+- **React.js**
+- **JavaScript (ES6+)**
+- **CSS / SCSS / Tailwind
+- **React Router**
+
+## 🛠️ Installation & Setup
+
+Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/your-username/Coffee_Corner.git
+cd Coffee_Corner
+npm install
+
