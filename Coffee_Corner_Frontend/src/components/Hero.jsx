@@ -10,11 +10,20 @@ export default function Hero() {
           <p className="mt-4 text-lg text-gray-600">
             Enjoy the rich aroma and bold taste crafted with love.
           </p>
-          <button className="mt-6 bg-[#3e3c2f] text-white px-6 py-3 rounded hover:bg-[#cba173] transition">
-            Explore Menu
-          </button>
+          <button
+  onClick={() => {
+    const menuSection = document.getElementById("menu");
+    if (menuSection) {
+      menuSection.scrollIntoView({ behavior: "smooth" });
+    }
+  }}
+  className="mt-6 px-6 py-3 border-2 border-black hover:bg-black hover:text-white transition rounded-md"
+>
+  Explore Menu
+</button>
+
         </div>
-        <div className="flex-1">
+        <div className="flex-1">          
           <img
             src="https://images.unsplash.com/photo-1511920170033-f8396924c348"
             alt="Coffee"
