@@ -23,18 +23,22 @@ export default function ModalBookingForm({ isOpen, onClose }) {
             className="w-full border p-3 rounded"
             required
           />
+            <input
+              type="tel"
+              placeholder="Phone"
+              className="w-full border p-3 rounded"
+              required
+            />
           <input
             type="email"
             placeholder="Email"
             className="w-full border p-3 rounded"
             required
           />
-          <textarea
-            placeholder="Message"
-            className="w-full border p-3 rounded"
-            rows="4"
-            required
-          ></textarea>
+           <input type="number" placeholder="Number of People" className="w-full border p-3 rounded" required />
+            <input type="date" placeholder="Date" className="w-full border p-3 rounded" required />
+        <input type="time" placeholder="Time" className="w-full border p-3 rounded" required />
+        <textarea placeholder="Any Special Requirements" className="w-full border p-3 rounded" rows="4" required></textarea>
           <button
             type="submit"
             className="w-full bg-[#3e3c2f] text-white p-3 rounded hover:bg-[#cba173]"

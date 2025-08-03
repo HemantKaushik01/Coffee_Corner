@@ -1,9 +1,4 @@
-// const items = [
-//   { name: "Espresso", src: "https://images.unsplash.com/photo-1687619485715-305c76d06836?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-//   { name: "Latte", src: "https://images.unsplash.com/photo-1585494156145-1c60a4fe952b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-//   { name: "Cappuccino", src: "https://images.unsplash.com/photo-1599901001011-9c0f0fb69b34?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-//   { name: "Americano", src: "https://images.unsplash.com/photo-1589985902809-39d25db22101?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-// ];
+
 
 import '../App.css'; // or './index.css' depending on where you put the flip-card CSS
 
